@@ -5,16 +5,16 @@ This project implements a handwritten digit recognition system using a Convoluti
 The goal of this project is to accurately classify handwritten digits (0-9) from grayscale images. The MNIST dataset, which contains 70,000 images of handwritten digits, is used for training and evaluating the model. Each image is 28x28 pixels in grayscale.
 
 ## Features
-### Data Preprocessing: Normalizes the images for better model convergence.
-### CNN Architecture: Uses multiple convolutional layers, max pooling, and dense layers to classify digits.
-### Model Training: Trained over 5 epochs with accuracy and loss metrics.
-### Prediction and Visualization: Outputs predictions along with the actual digits for sample test images.
+**Data Preprocessing:** Normalizes the images for better model convergence.
+**CNN Architecture:** Uses multiple convolutional layers, max pooling, and dense layers to classify digits.
+**Model Training:** Trained over 5 epochs with accuracy and loss metrics.
+**Prediction and Visualization:** Outputs predictions along with the actual digits for sample test images.
 
 ## Dataset
 The MNIST dataset is loaded from TensorFlow's keras.datasets API. 
-It contains:
-60,000 training images
-10,000 test images
+It contains:  
+60,000 training images  
+10,000 test images  
 Each image represents a digit from 0 to 9 and is labeled with the corresponding digit.
 
 ## Model Architecture
