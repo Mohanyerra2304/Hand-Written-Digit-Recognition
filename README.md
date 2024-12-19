@@ -1,5 +1,5 @@
 # Hand-Written-Digit-Recognition
-This project implements a handwritten digit recognition system using a Convolutional Neural Network (CNN), built with TensorFlow and Keras, to classify images from the MNIST dataset.
+
 
 ## Project Overview
 The goal of this project is to accurately classify handwritten digits (0-9) from grayscale images. The MNIST dataset, which contains 70,000 images of handwritten digits, is used for training and evaluating the model. Each image is 28x28 pixels in grayscale.
